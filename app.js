@@ -11,6 +11,6 @@ app.get('/', mainctrl.indexData);
 app.get('/infobox',mainctrl.infobox)
 
 var server = app.listen(3000, function () {
-  console.log("你好啊");
+  console.log("hello");
 });
 
